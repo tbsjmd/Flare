@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09154C6BBFFD7F383DDEC3B1 /* NHSLedgerAndWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76C3B4F2222F8DFBE2320B /* NHSLedgerAndWidgetView.swift */; };
+		126473DBE5FE1CBEC76C97DF /* RadarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796726C850594A1A25D932E /* RadarHomeView.swift */; };
+		214802CDA9C98CAD91D2E34B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DE962E0C7B87C7D792FEA42A /* PrivacyInfo.xcprivacy */; };
+		4296EFD1993B55063CF61E06 /* FlareStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA14B9D832B111D62FBBE3 /* FlareStore.swift */; };
+		55878A9C44550334BE4936CE /* FlareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4BB3275FF7AB33625E1C87 /* FlareApp.swift */; };
+		58BA4A425E36697391E2F0F6 /* ClassVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F17C33803BC0587A9F6622 /* ClassVaultView.swift */; };
+		5F099E596D40077D42D2AE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C294D274D68049EE2CFC715B /* Assets.xcassets */; };
+		6E1E4375829248DA334FDC69 /* FlareTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED8149E3E394EB2AE97E85C /* FlareTheme.swift */; };
+		83C3EC32E2611FD4A90A9FDB /* RescueRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BED52BDB95737210E34F22 /* RescueRoomView.swift */; };
+		947B00FA6313C8CB2A33C307 /* FlareComposerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E70C4BD384E96029AFDF34 /* FlareComposerSheet.swift */; };
+		BB83965285E74FD511E40DA7 /* GooeyDockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846847BF62BC5D55233B658 /* GooeyDockView.swift */; };
+		BC11E0817A8F2D5738B07770 /* WispMascotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE981B5239E98702A253F62 /* WispMascotView.swift */; };
+		C660411808E6A2FE691996D6 /* FlareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EBF27B65DA92B89E0A6B37 /* FlareModels.swift */; };
+		CBE9D56273858EDC173639DE /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D5ADE6DBE67E42C300D7D /* Feedback.swift */; };
+		D9C80BB1AF3F12DD54E6D693 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFB4329518C8A3C25E5B16 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E4BB3275FF7AB33625E1C87 /* FlareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareApp.swift; sourceTree = "<group>"; };
+		25E70C4BD384E96029AFDF34 /* FlareComposerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareComposerSheet.swift; sourceTree = "<group>"; };
+		3796726C850594A1A25D932E /* RadarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarHomeView.swift; sourceTree = "<group>"; };
+		37F17C33803BC0587A9F6622 /* ClassVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassVaultView.swift; sourceTree = "<group>"; };
+		4AFA14B9D832B111D62FBBE3 /* FlareStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareStore.swift; sourceTree = "<group>"; };
+		87EBF27B65DA92B89E0A6B37 /* FlareModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareModels.swift; sourceTree = "<group>"; };
+		A54C4A6E1CC3B09770EE4B1A /* Flare.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Flare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A846847BF62BC5D55233B658 /* GooeyDockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyDockView.swift; sourceTree = "<group>"; };
+		AED8149E3E394EB2AE97E85C /* FlareTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareTheme.swift; sourceTree = "<group>"; };
+		BE76C3B4F2222F8DFBE2320B /* NHSLedgerAndWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHSLedgerAndWidgetView.swift; sourceTree = "<group>"; };
+		C294D274D68049EE2CFC715B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE962E0C7B87C7D792FEA42A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EEDFB4329518C8A3C25E5B16 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F01D5ADE6DBE67E42C300D7D /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		F5BED52BDB95737210E34F22 /* RescueRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescueRoomView.swift; sourceTree = "<group>"; };
+		FFE981B5239E98702A253F62 /* WispMascotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WispMascotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		33B82DF2A86F95184CAFCFE3 = {
+			isa = PBXGroup;
+			children = (
+				8D93D6242A64F7436BAB649F /* Flare */,
+				77EDB58B456972FAA96B4A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F00DA48C2C395A8E1CEF0B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37F17C33803BC0587A9F6622 /* ClassVaultView.swift */,
+				25E70C4BD384E96029AFDF34 /* FlareComposerSheet.swift */,
+				BE76C3B4F2222F8DFBE2320B /* NHSLedgerAndWidgetView.swift */,
+				EEDFB4329518C8A3C25E5B16 /* OnboardingView.swift */,
+				3796726C850594A1A25D932E /* RadarHomeView.swift */,
+				F5BED52BDB95737210E34F22 /* RescueRoomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		416DB00F766C552608DF8086 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F01D5ADE6DBE67E42C300D7D /* Feedback.swift */,
+				A846847BF62BC5D55233B658 /* GooeyDockView.swift */,
+				FFE981B5239E98702A253F62 /* WispMascotView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		77EDB58B456972FAA96B4A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4A6E1CC3B09770EE4B1A /* Flare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D93D6242A64F7436BAB649F /* Flare */ = {
+			isa = PBXGroup;
+			children = (
+				C294D274D68049EE2CFC715B /* Assets.xcassets */,
+				0E4BB3275FF7AB33625E1C87 /* FlareApp.swift */,
+				DE962E0C7B87C7D792FEA42A /* PrivacyInfo.xcprivacy */,
+				416DB00F766C552608DF8086 /* Components */,
+				996053A832EE397063A49DEE /* Models */,
+				B94BB78D93781AD86B6CCC85 /* State */,
+				9C14282DBFF27229A9DBB3F5 /* Theme */,
+				3F00DA48C2C395A8E1CEF0B1 /* Views */,
+			);
+			path = Flare;
+			sourceTree = "<group>";
+		};
+		996053A832EE397063A49DEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87EBF27B65DA92B89E0A6B37 /* FlareModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C14282DBFF27229A9DBB3F5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AED8149E3E394EB2AE97E85C /* FlareTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B94BB78D93781AD86B6CCC85 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA14B9D832B111D62FBBE3 /* FlareStore.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEFF2D6694AA197C07481DA /* Flare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29D5392657225832C7D65FF /* Build configuration list for PBXNativeTarget "Flare" */;
+			buildPhases = (
+				FC1A910FE9C0003576F816B8 /* Sources */,
+				CCFD56BBEC492ED55D0AE00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flare;
+			packageProductDependencies = (
+			);
+			productName = Flare;
+			productReference = A54C4A6E1CC3B09770EE4B1A /* Flare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F54DB5AAF6A868D9F734248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = E9D3C2DAFBE258A76E3430E2 /* Build configuration list for PBXProject "Flare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 33B82DF2A86F95184CAFCFE3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 77EDB58B456972FAA96B4A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEFF2D6694AA197C07481DA /* Flare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFD56BBEC492ED55D0AE00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F099E596D40077D42D2AE14 /* Assets.xcassets in Resources */,
+				214802CDA9C98CAD91D2E34B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1A910FE9C0003576F816B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BA4A425E36697391E2F0F6 /* ClassVaultView.swift in Sources */,
+				CBE9D56273858EDC173639DE /* Feedback.swift in Sources */,
+				55878A9C44550334BE4936CE /* FlareApp.swift in Sources */,
+				947B00FA6313C8CB2A33C307 /* FlareComposerSheet.swift in Sources */,
+				C660411808E6A2FE691996D6 /* FlareModels.swift in Sources */,
+				4296EFD1993B55063CF61E06 /* FlareStore.swift in Sources */,
+				6E1E4375829248DA334FDC69 /* FlareTheme.swift in Sources */,
+				BB83965285E74FD511E40DA7 /* GooeyDockView.swift in Sources */,
+				09154C6BBFFD7F383DDEC3B1 /* NHSLedgerAndWidgetView.swift in Sources */,
+				D9C80BB1AF3F12DD54E6D693 /* OnboardingView.swift in Sources */,
+				126473DBE5FE1CBEC76C97DF /* RadarHomeView.swift in Sources */,
+				83C3EC32E2611FD4A90A9FDB /* RescueRoomView.swift in Sources */,
+				BC11E0817A8F2D5738B07770 /* WispMascotView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D73397861F2534DC12A9E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6E23BD4AE022C672F4973AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = flare.;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benfriedman.flare;
+				PRODUCT_NAME = Flare;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A18A72C33FCA5AFBB3FB2828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = flare.;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benfriedman.flare;
+				PRODUCT_NAME = Flare;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1E012D5130FF3F5D0807853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29D5392657225832C7D65FF /* Build configuration list for PBXNativeTarget "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18A72C33FCA5AFBB3FB2828 /* Debug */,
+				6E23BD4AE022C672F4973AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9D3C2DAFBE258A76E3430E2 /* Build configuration list for PBXProject "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E012D5130FF3F5D0807853 /* Debug */,
+				5D73397861F2534DC12A9E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F54DB5AAF6A868D9F734248 /* Project object */;
+}
